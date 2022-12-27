@@ -1,0 +1,225 @@
+/* ! Main Template CSS Start */
+
+body {
+    align-items: center;
+    background-color: #E5E5E5;
+    display: flex;
+    height: 100vh;
+    transform: scale(0.8);
+}
+
+.main {
+    background-color: #f8f8f8d0;
+    border: 1px solid transparent;
+    border-radius: 23px;
+    height: 797px;
+    margin: 0 auto;
+    position: relative;
+    width: 703px;
+}
+
+.section {
+    margin: 84px;
+}
+
+/* ! Main Template CSS End */
+/* ? ------------------------- ? */
+/* ! Top Content CSS Start ! */
+
+.top-content {
+    align-items: center;
+    column-gap: 70px;
+    display: flex;
+    height: 130px;
+    width: 535px;
+}
+
+.title h1 {
+    font-family: Merriweather, sans-serif;
+    font-size: 34px;
+    font-weight: 900;
+    height: 129px;
+    line-height: 43px;
+    width: 293px;
+}
+
+.avarage-rating {
+    background-color: #ffffff;
+    border: 3px solid transparent;
+    border-radius: 15px;
+    height: 90px;
+    margin-right: 5px;
+    padding: 17px;
+    width: 162px;
+}
+
+.avarage-rating .average-rating-top {
+    display: flex;
+    font-family: Poppins, sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 39px;
+    margin: 0;
+    text-align: center;
+}
+
+.avarage-rating .average-rating-bottom {
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 42px;
+    line-height: 21px;
+    text-align: center;
+    width: 128px;
+}
+
+.avarage-rating .average-rating-bottom p {
+    font-family: poppins, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    margin-bottom: 17px;
+    margin-top: 8px;
+}
+
+.avarage-rating i {
+    color: gold;
+    font-size: 36px;
+    margin-right: 8px;
+}
+
+/* ! Top Content CSS End ! */
+/* ? ------------------------- ? */
+/* ! Middle Content CSS Start ! */
+
+.middle-content {
+    margin: 56px 60px 32px auto;
+    position: relative;
+}
+
+.middle-content input {
+    border: none;
+    border-radius: 26px;
+    font-size: 16px;
+    height: 60px;
+    padding: 0 44px;
+    width: 100%;
+}
+
+input[type='text']::placeholder {
+    color: #73749c;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.middle-content .bi {
+    font-size: 20px;
+    left: 16px;
+    position: absolute;
+    top: 18px;
+}
+
+/* ! Middle Content CSS End ! */
+/* ? ------------------------- ? */
+/* ! End Content CSS Start ! */
+
+.end-content {
+    height: 239px;
+    width: 534px;
+}
+
+.end-content h4 {
+    color: #191B4A;
+    font-family: poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    margin: 0;
+}
+
+.end-content .total {
+    background-color: #E5E5E5;
+    border-radius: 13px;
+    height: 10px;
+    margin-right: 8px;
+    width: 430px;
+}
+
+.end-content .half-5 {
+    background-color: gold;
+    border-radius: 13px;
+    height: 10px;
+    width: 350px;
+}
+
+.end-content .half-4 {
+    background-color: gold;
+    border-radius: 13px;
+    height: 10px;
+    width: 150px;
+}
+
+.end-content .half-3 {
+    background-color: gold;
+    border-radius: 13px;
+    height: 10px;
+    width: 50px;
+}
+
+.end-content .reviews-wrapper {
+    font-family: poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-left: 14px;
+    margin-top: 16px;
+}
+
+.end-content .reviews-wrapper .row {
+    align-items: center;
+    display: flex;
+    margin-bottom: 18px;
+}
+
+.end-content .reviews-wrapper .row .bi {
+    color: gold;
+    margin-left: 4px;
+    margin-right: 8px;
+}
+
+/* ! End Content CSS End ! */
+/* ? ------------------------- ? */
+/* ! Button CSS Start ! */
+
+.btn button {
+    background-color: #191B4A;
+    border: none;
+    border-radius: 34px;
+    color: #fff;
+    cursor: pointer;
+    height: 56px;
+    margin-top: 56px;
+    padding: 16px 24px;
+    width: 164px;
+}
+
+.btn button:hover {
+    background-color: #32326d;
+}
+
+.btn button:active {
+    opacity: 0.8;
+}
+
+.btn button h6 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    margin: 0;
+}
+
+/* ! Button CSS End ! */
