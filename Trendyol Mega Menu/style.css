@@ -1,0 +1,230 @@
+li {
+    list-style-type: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+.wrapper .top-list {
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 36px;
+    margin: 0;
+}
+
+.wrapper .top-list .top-list-item {
+    display: flex;
+}
+
+.wrapper .top-list .top-list-item a:hover {
+    color: #66666F;
+}
+
+.wrapper .top-list .top-list-item a {
+    text-decoration: none;
+    color: #9F9C99;
+    font-size: 12px;
+    margin-top: 5px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.section {
+    margin: 0px 160px;
+}
+
+.top-nav {
+    margin: 0;
+    height: 20px;
+}
+
+/* ! Top Middle ! */
+
+
+.top-middle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    height: 66px;
+}
+
+.top-middle .user ul {
+    display: flex;
+    column-gap: 50px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.top-middle .user ul li {
+    cursor: pointer;
+    display: flex;
+    column-gap: 4px;
+    font-weight: 600;
+    align-items: center;
+}
+
+.top-middle .user ul li i {
+    font-size: 18px;
+}
+
+
+.top-middle .user ul li:hover {
+    color: #F27A1A;
+}
+
+.top-middle .search {
+    position: relative;
+}
+
+.top-middle .search input {
+    width: 598px;
+    padding: 10px;
+    background-color: #F3F3F3;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+
+}
+
+.top-middle .search input:focus {
+    border: 2px solid #F27A1A;
+}
+
+.top-middle .search input:focus i {
+    right: 15px;
+    top: 8px;
+}
+
+.top-middle .search i {
+    position: absolute;
+    right: 15px;
+    top: 8px;
+    color: #F27A1A;
+    font-size: 18px;
+}
+
+/* ! Top Bottom ! */
+
+.top-bottom .top-bottom-list {
+    display: flex;
+    column-gap: 14px;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.top-bottom .top-bottom-list .top-bottom-list-item {
+    font-weight: 600;
+    font-style: normal;
+    font-size: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    cursor: pointer;
+    padding: 12px 10px;
+}
+
+.top-bottom .top-bottom-list .top-bottom-list-item:hover {
+    color: #F27A1A;
+}
+
+.top-bottom .top-bottom-list .top-bottom-list-item.active {
+    color: #F27A1A;
+    border-bottom: 3px solid #F27A1A;
+}
+
+/* ! Mega Menu ! */
+
+.mega-menu {
+    background-color: #fff;
+    position: absolute;
+    left: 160px;
+    width: 1190px;
+    padding: 0 10px;
+    top: 148px;
+    color: black;
+    opacity: 0;
+    visibility: hidden;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.mega-menu .content {
+    width: 1200px;
+    height: 340px;
+    margin: auto auto;
+    display: flex;
+    padding: 0px;
+}
+
+.mega-menu .content header {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.mega-menu .content header:hover {
+    color: #F27A1A;
+    text-decoration: underline;
+    transition: 0.3s all ease;
+}
+
+.mega-menu .content .row {
+    padding: 20px 5px 10px 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mega-menu .content .row ul {
+    padding: 0;
+    margin-right: 43px;
+}
+
+.mega-menu .content .row ul li {
+    font-size: 13px;
+    color: #a1a1a1;
+    padding: 2px 0;
+    text-align: left;
+    cursor: pointer;
+}
+
+.mega-menu .content .row ul li:hover {
+    color: #F27A1A;
+    text-decoration: underline;
+    transition: 0.3s all ease;
+}
+
+.mega-menu .content .row header.second {
+    padding-top: 10px;
+}
+
+.mega-menu .content .row img {
+    width: 265px;
+    height: 137px;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border-radius: 6px;
+}
+
+.mega-menu .content .row img:hover {
+    transform: scale(1.02);
+    transition: 0.3s all ease;
+}
+
+.top-bottom .top-bottom-list li:nth-child(1):hover .mega-menu {
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.5s ease-in-out;
+}
+
+.top-bottom .top-bottom-list li:nth-child(1):hover article {
+    background-color: #bdbbbb;
+}
+
+article {
+    height: 100vh;
+}
